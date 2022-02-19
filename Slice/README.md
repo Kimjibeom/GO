@@ -41,4 +41,12 @@ slice := []int{0,0,0}       // 위의 코드와 같은 결과
 
 - 슬라이스에 요소를 추가한 슬라이스 반환
 
-var slice = []int{1,2,3}    // 요소가 3
+
+
+var slice = []int{1,2,3}    // 요소가 3개인 슬라이스
+
+slice2 := append(slice, 4)  // 요소 추가
+
+fmt.Println(slice)  // [ 1, 2, 3]
+
+fmt.Println(sllice2)  //[ 1, 2, 3, 4]
