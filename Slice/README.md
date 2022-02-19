@@ -10,7 +10,7 @@ C++의 vector(int), Java의 ArrayList 등과 비슷한 느낌
 # 전체 배열 길이를 나타내는 cap(capacity) 필드로 구성된 구조체
 
 
-
+'''
   type SliceHeader struct {
   
    Data uintptr            // 실제 배열을 가리키는 포인터
@@ -20,6 +20,7 @@ C++의 vector(int), Java의 ArrayList 등과 비슷한 느낌
    Cap int                 // 실제 배열의 길이
    
   }
+'''  
 
 슬라이스가 실제 배열을 가리키는 포인터르 가지고 있어서 쉽게 크기가 다른 배열을 가리키도록 변경할 수 있고,
 
