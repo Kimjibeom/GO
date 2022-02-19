@@ -20,3 +20,17 @@ type SliceHeader struct {
   
 }
 
+# 
+
+# make() : 내장함수
+
+
+
+var slice = make([]int,3)   // 여기서 3은 요소 개수
+
+slice := []int{0,0,0}       // 위의 코드와 같은 결과
+
+
+
+# append() : 슬라이스 요소 추가 (내장함수)
+
