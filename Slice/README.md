@@ -11,15 +11,15 @@ C++의 vector(int), Java의 ArrayList 등과 비슷한 느낌
 
 
 
-type SliceHeader struct {
-
-  Data uintptr            // 실제 배열을 가리키는 포인터
+  type SliceHeader struct {
   
-  Len int                 // 요소 개수
-  
-  Cap int                 // 실제 배열의 길이
-  
-}
+   Data uintptr            // 실제 배열을 가리키는 포인터
+   
+   Len int                 // 요소 개수
+   
+   Cap int                 // 실제 배열의 길이
+   
+  }
 
 슬라이스가 실제 배열을 가리키는 포인터르 가지고 있어서 쉽게 크기가 다른 배열을 가리키도록 변경할 수 있고,
 
