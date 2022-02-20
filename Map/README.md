@@ -1,6 +1,7 @@
 # 맵
 
 - 맵은 키(Key)에 대응하는 값(Value)을 신속히 찾는 해시테이블(Hash table)을 구현한 자료구조
+- 언어에 따라서 딕셔너리(dictionary), 해시테이블(hash table), 해시맵(hash map)등으로 부른다.
 
 Go 언어는 Map 타입을 내장하고 있는데, "map[Key타입]Value타입" 과 같이 선언한다.
 
