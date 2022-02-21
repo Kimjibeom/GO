@@ -21,7 +21,7 @@ messages <- "This is a message"
 // 채널 데이터 <- 넣을 데이터
 ```
 
-채널에서 데이터 빼기
+### 채널에서 데이터 빼기
 
 ```
 var msg string = <- messages
