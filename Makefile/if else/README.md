@@ -1,2 +1,2 @@
-*Makefile 조건문
+#Makefile 조건문
 
