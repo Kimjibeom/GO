@@ -15,9 +15,14 @@ libs_for_gcc = -lgnu
 normal_libs = 
 
 foo: $(objects) 
-ifeq ($(CC),gcc) 
+ifeq ($(CC),gcc)  // 변수 'CC'가 'gcc'일 때 실행
       $(CC) -o foo $(objects) $(libs_for_gcc) 
-else 
+else              // 변수 'CC'가 'gcc'아닐 때 실행
       $(CC) -o foo $(objects) $(normal_libs) 
 endif
 ```
+
+### Makefile 다중 조건문(중첩 조건)
+
+* 기본적으로, make에서 다중 조건문은 존재하지 않는다.
+* AND(&&) 또는 OR(||)를 사용할 수 없다.
