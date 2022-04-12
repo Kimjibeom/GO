@@ -1,8 +1,12 @@
 # GO
 
+
 Go 언어는 구글이 개발한 프로그래밍 언어입니다.
 
 Go 언어는 빠른 성능, 안정성, 편의성, 쉬운 프로그래밍을 목표로 개발되었으며 범용 프로그래밍 언어입니다.
+
+Go는 전통적인 컴파일, 링크 모델을 따르는 범용 프로그래밍 언어이다. Go는 일차적으로 시스템 프로그래밍을 위해 개발되었으며, C++, Java, Python의 장점들을 뽑아 만들어졌다. C++와 같이 Go는 컴파일러를 통해 컴파일되며, 정적 타입(Statically Typed)의 언어이다. 또한 Java와 같이 Go는 가비지 컬렉션(Garbage Collection) 기능을 제공한다. Go는 단순하고 간결한 프로그래밍 언어를 지향하였는데, Java의 절반에 해당하는 25개의 키워드만으로 프로그래밍이 가능하다. Go의 큰 특징으로 Go는 Communicating Sequential Processes(CSP) 스타일의 동시성(Concurrent) 프로그래밍을 지원한다.
+
 
 특징
 * 정적타입, 강 타입(Strongly-typed)
