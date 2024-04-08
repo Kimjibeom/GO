@@ -14,11 +14,11 @@ func NewStack() *Stack {
 }
 
 func (s *Stack) Push(val interface{}) {
-	s.v.PushBack(val) // ❶ 맨 뒤에 요소 추가
+	s.v.PushBack(val) // 맨 뒤에 요소 추가
 }
 
 func (s *Stack) Pop() interface{} {
-	back := s.v.Back() // ❷ 맨 뒤에서 요소를 반환
+	back := s.v.Back() // 맨 뒤에서 요소를 반환
 	if back != nil {
 		return s.v.Remove(back)
 	}
